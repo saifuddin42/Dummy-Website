@@ -1,0 +1,185 @@
+body{
+    font-family: 'Roboto', Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(34, 34, 34);
+    color: rgb(192, 192, 192);
+}
+
+/* Global Container */
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/*All Unordered Lists will have 0 margin and padding by default*/
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header{
+    background: rgb(54, 54, 54);
+    color: rgb(192, 192, 192);
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: rgb(214, 45, 15) 3px solid;
+}
+
+/* Anchor Tags within the Header */
+header a{
+    color: rgb(192, 192, 192);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+/* List Items within the Header */
+header li{
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header #title{
+    float: left;
+}
+
+header #title h1{
+    margin: 0;
+}
+
+header nav{
+    float: right;
+    margin-left: 0;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+header .highlight{
+    color: tomato;
+    font-weight: bold;
+}
+
+header a:hover{
+    color: tomato;
+    font-weight: bold;
+}
+
+/* Intro Section */
+#intro{
+    min-height: 400px;
+    background: url('../img/back.jpg') no-repeat;
+    text-align: center;
+}
+
+#intro h1{
+    font-size: 55px;
+    margin-bottom: 10px;
+}
+
+#intro p{
+    font-size: 20px;
+}
+
+#profile_pic{
+    float: left;
+    margin-top: 50px;
+    margin-left: 0;
+    margin-right: 100px;
+}
+
+#profile_pic img{
+    max-width: 300px;
+    max-height: 300px;
+}
+
+#text{
+    margin-top: 100px;
+    margin-right: 0;
+    float: inline-end;
+    text-align: justify;
+}
+
+/* Links Ribbon */
+#links{
+    padding: 5px;
+    background: rgb(54, 54, 54);
+    color: rgb(192, 192, 192);
+    text-align: center;
+}
+
+#links a{
+    text-decoration: none;
+}
+
+/* Projects */
+#projects{
+    margin-top: 20px;
+}
+
+#projects .box{
+    float: left;
+    text-align: center;
+    width: 30%;
+    padding: 10px;
+}
+
+#projects .box img{
+    width: 90px;
+}
+
+#projects a{
+    color: rgb(192, 192, 192);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+#projects a:hover{
+    color: tomato;
+    font-weight: bold;
+}
+
+/* Footer */
+footer{
+    padding: 5px;
+    background: rgb(54, 54, 54);
+    color: rgb(192, 192, 192);
+    text-align: center;
+}
+
+/* Media Queries */
+
+@media(max-width: 768px){
+    header #title,
+    header nav,
+    header nav li,
+    #intro,
+    #intro #profile_pic, 
+    #intro #text,
+    #projects .box,
+    #projects{
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+
+    #intro #text{
+        padding-top: 0;
+        margin-top: 0;
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    #intro #profile_pic{
+        padding-bottom: 0;
+        margin-bottom: 0;
+        padding-right: 0;
+        margin-right: 0;
+    }
+}
