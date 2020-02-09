@@ -4,7 +4,7 @@ body{
     line-height: 1.5;
     padding: 0;
     margin: 0;
-    background-color: rgb(34, 34, 34);
+    background-color: rgb(17, 17, 17);
     color: rgb(192, 192, 192);
 }
 
@@ -23,7 +23,7 @@ ul{
 
 /* Header */
 header{
-    background: rgb(54, 54, 54);
+    background: rgb(10, 12, 43);
     color: rgb(192, 192, 192);
     padding-top: 30px;
     min-height: 70px;
@@ -108,7 +108,7 @@ header a:hover{
 /* Links Ribbon */
 #links{
     padding: 5px;
-    background: rgb(54, 54, 54);
+    background: rgb(10, 12, 43);
     color: rgb(192, 192, 192);
     text-align: center;
 }
@@ -148,7 +148,7 @@ header a:hover{
 /* Footer */
 footer{
     padding: 5px;
-    background: rgb(54, 54, 54);
+    background: rgb(10, 12, 43);
     color: rgb(192, 192, 192);
     text-align: center;
 }
